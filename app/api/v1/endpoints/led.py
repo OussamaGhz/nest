@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException, Depends, status
 from pydantic import BaseModel
-from typing import Dict, Any
+import json
 from app.core.mqtt import mqtt_client
 
 router = APIRouter()
@@ -19,19 +19,20 @@ async def control_led(command: LEDCommand):
     
     # Publish MQTT message to control the LED
     topic = "robot/esp32/commands"
-    payload = {"command": command.state}
+    payload = json.dumps({"command": command.state})
     
     try:
-        result = mqtt_client.publish(
+        # Your mqtt_client.publish returns a boolean, not an object with an rc attribute
+        success = mqtt_client.publish(
             topic=topic,
-            payload=str(payload).replace("'", "\""),
+            payload=payload,
             qos=1
         )
         
-        if result.rc != 0:
+        if not success:
             raise HTTPException(
                 status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-                detail=f"Failed to publish MQTT message: {result.rc}"
+                detail="Failed to publish MQTT message"
             )
             
         return {"status": "success", "message": f"LED {command.state} command sent"}
