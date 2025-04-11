@@ -198,4 +198,4 @@ The system uses Docker Compose with the following services:
 MIT License
 
 ## Contributors
-Your Name
+Ghazi Oussama Soheib
