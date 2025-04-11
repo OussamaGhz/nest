@@ -1,4 +1,4 @@
-version: '3.8'
+version: '3'  # Downgrade from 3.8 for better compatibility
 
 services:
   web:
@@ -7,9 +7,14 @@ services:
       - "8000"
     depends_on:
       - db
+      - mosquitto
     environment:
       - DATABASE_URL=postgresql://postgres:postgres@db:5432/nest_db
       - SECRET_KEY=${SECRET_KEY}
+      - MQTT_BROKER=mosquitto
+      - MQTT_PORT=1883
+      - MQTT_USERNAME=admin
+      - MQTT_PASSWORD=1107
     restart: always
 
   db:
@@ -32,5 +37,23 @@ services:
       - web
     restart: always
 
+  mosquitto:
+    image: eclipse-mosquitto:latest
+    ports:
+      - "1883:1883"  # Changed to avoid port conflicts
+      - "9001:9001"
+    volumes:
+      - ./mosquitto/config:/mosquitto/config
+    restart: always
+
+  nodered:
+    image: nodered/node-red:latest
+    ports:
+       - "1880:1880"  # Node-RED web interface
+    volumes:
+       - ./node-red-data:/data  # Persist flows and settings
+    depends_on:
+       - mosquitto  # Ensure Mosquitto starts first
+    restart: always
 volumes:
   postgres_data:

@@ -1,0 +1,54 @@
+[
+    {
+        "path": "/openapi.json",
+        "name": "openapi"
+    },
+    {
+        "path": "/docs",
+        "name": "swagger_ui_html"
+    },
+    {
+        "path": "/docs/oauth2-redirect",
+        "name": "swagger_ui_redirect"
+    },
+    {
+        "path": "/redoc",
+        "name": "redoc_html"
+    },
+    {
+        "path": "/api/v1/auth/login",
+        "name": "login"
+    },
+    {
+        "path": "/api/v1/auth/refresh",
+        "name": "refresh_token"
+    },
+    {
+        "path": "/api/v1/auth/create-user",
+        "name": "create_user"
+    },
+    {
+        "path": "/api/v1/users/me",
+        "name": "read_user_data"
+    },
+    {
+        "path": "/api/v1/users/admin",
+        "name": "read_admin_data"
+    },
+    {
+        "path": "/api/v1/robots/{robot_id}/command",
+        "name": "send_command"
+    },
+    {
+        "path": "/api/v1/robots/{robot_id}/status",
+        "name": "get_robot_status"
+    },
+    {
+        "path": "/api/v1/led/control",
+        "name": "control_led"
+    },
+    {
+        "path": "/",
+        "name": "root"
+    }
+]

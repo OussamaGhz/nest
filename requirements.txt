@@ -9,3 +9,6 @@ bcrypt>=3.2.0
 python-dotenv>=0.19.0
 python-multipart>=0.0.5
 psycopg2-binary>=2.9.1
+# MQTT dependencies
+gmqtt>=0.6.11
+asyncio-mqtt>=0.12.1

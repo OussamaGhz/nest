@@ -1,0 +1,287 @@
+1744308772: mosquitto version 2.0.21 starting
+1744308772: Config loaded from /mosquitto/config/mosquitto.conf.
+1744308772: Warning: File /mosquitto/config/acl.conf has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/acl.conf`.
+1744308772: Warning: ACL pattern '$SYS/#' does not contain '%c' or '%u'.
+1744308772: Opening ipv4 listen socket on port 1883.
+1744308772: Opening ipv6 listen socket on port 1883.
+1744308772: mosquitto version 2.0.21 running
+1744308856: mosquitto version 2.0.21 terminating
+1744308856: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1744310778: mosquitto version 2.0.21 starting
+1744310778: Config loaded from /mosquitto/config/mosquitto.conf.
+1744310778: Warning: File /mosquitto/config/acl.conf has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/acl.conf`.
+1744310778: Warning: ACL pattern '$SYS/#' does not contain '%c' or '%u'.
+1744310778: Opening ipv4 listen socket on port 1883.
+1744310778: Opening ipv6 listen socket on port 1883.
+1744310778: mosquitto version 2.0.21 running
+1744310830: New connection from 172.17.0.1:39774 on port 1883.
+1744310830: New client connected from 172.17.0.1:39774 as Nest API (p2, c1, k60, u'admin').
+1744310830: No will message specified.
+1744310830: Sending CONNACK to Nest API (0, 0)
+1744310830: Received SUBSCRIBE from Nest API
+1744310830: 	robot/+/position (QoS 1)
+1744310830: Nest API 1 robot/+/position
+1744310830: Sending SUBACK to Nest API
+1744310891: Received PINGREQ from Nest API
+1744310891: Sending PINGRESP to Nest API
+1744310951: Received PINGREQ from Nest API
+1744310951: Sending PINGRESP to Nest API
+1744311011: Received PINGREQ from Nest API
+1744311011: Sending PINGRESP to Nest API
+1744311071: Received PINGREQ from Nest API
+1744311071: Sending PINGRESP to Nest API
+1744311131: Received PINGREQ from Nest API
+1744311131: Sending PINGRESP to Nest API
+1744311191: Received PINGREQ from Nest API
+1744311191: Sending PINGRESP to Nest API
+1744311251: Received PINGREQ from Nest API
+1744311251: Sending PINGRESP to Nest API
+1744311311: Received PINGREQ from Nest API
+1744311311: Sending PINGRESP to Nest API
+1744311371: Received PINGREQ from Nest API
+1744311371: Sending PINGRESP to Nest API
+1744311431: Received PINGREQ from Nest API
+1744311431: Sending PINGRESP to Nest API
+1744311491: Received PINGREQ from Nest API
+1744311491: Sending PINGRESP to Nest API
+1744311551: Received PINGREQ from Nest API
+1744311551: Sending PINGRESP to Nest API
+1744311611: Received PINGREQ from Nest API
+1744311611: Sending PINGRESP to Nest API
+1744311671: Received PINGREQ from Nest API
+1744311671: Sending PINGRESP to Nest API
+1744311731: Received PINGREQ from Nest API
+1744311731: Sending PINGRESP to Nest API
+1744311791: Received PINGREQ from Nest API
+1744311791: Sending PINGRESP to Nest API
+1744311851: Received PINGREQ from Nest API
+1744311851: Sending PINGRESP to Nest API
+1744311912: Received PINGREQ from Nest API
+1744311912: Sending PINGRESP to Nest API
+1744311972: Received PINGREQ from Nest API
+1744311972: Sending PINGRESP to Nest API
+1744312032: Received PINGREQ from Nest API
+1744312032: Sending PINGRESP to Nest API
+1744312092: Received PINGREQ from Nest API
+1744312092: Sending PINGRESP to Nest API
+1744312152: Received PINGREQ from Nest API
+1744312152: Sending PINGRESP to Nest API
+1744312212: Received PINGREQ from Nest API
+1744312212: Sending PINGRESP to Nest API
+1744312272: Received PINGREQ from Nest API
+1744312272: Sending PINGRESP to Nest API
+1744312332: Received PINGREQ from Nest API
+1744312332: Sending PINGRESP to Nest API
+1744312392: Received PINGREQ from Nest API
+1744312392: Sending PINGRESP to Nest API
+1744312452: Received PINGREQ from Nest API
+1744312452: Sending PINGRESP to Nest API
+1744312497: Received DISCONNECT from Nest API
+1744312497: Client Nest API disconnected.
+1744312498: New connection from 172.17.0.1:43332 on port 1883.
+1744312498: New client connected from 172.17.0.1:43332 as Nest API (p2, c1, k60, u'admin').
+1744312498: No will message specified.
+1744312498: Sending CONNACK to Nest API (0, 0)
+1744312498: Received SUBSCRIBE from Nest API
+1744312498: 	robot/+/position (QoS 1)
+1744312498: Nest API 1 robot/+/position
+1744312498: Sending SUBACK to Nest API
+1744312499: Received DISCONNECT from Nest API
+1744312499: Client Nest API disconnected.
+1744312500: New connection from 172.17.0.1:43336 on port 1883.
+1744312500: New client connected from 172.17.0.1:43336 as Nest API (p2, c1, k60, u'admin').
+1744312500: No will message specified.
+1744312500: Sending CONNACK to Nest API (0, 0)
+1744312500: Received SUBSCRIBE from Nest API
+1744312500: 	robot/+/position (QoS 1)
+1744312500: Nest API 1 robot/+/position
+1744312500: Sending SUBACK to Nest API
+1744312560: Received PINGREQ from Nest API
+1744312560: Sending PINGRESP to Nest API
+1744312579: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1744312620: Received PINGREQ from Nest API
+1744312620: Sending PINGRESP to Nest API
+1744312680: Received PINGREQ from Nest API
+1744312680: Sending PINGRESP to Nest API
+1744312740: Received PINGREQ from Nest API
+1744312740: Sending PINGRESP to Nest API
+1744312800: Received PINGREQ from Nest API
+1744312800: Sending PINGRESP to Nest API
+1744312860: Received PINGREQ from Nest API
+1744312860: Sending PINGRESP to Nest API
+1744312920: Received PINGREQ from Nest API
+1744312920: Sending PINGRESP to Nest API
+1744312980: Received PINGREQ from Nest API
+1744312980: Sending PINGRESP to Nest API
+1744313040: Received PINGREQ from Nest API
+1744313040: Sending PINGRESP to Nest API
+1744313100: Received PINGREQ from Nest API
+1744313100: Sending PINGRESP to Nest API
+1744313149: Received DISCONNECT from Nest API
+1744313149: Client Nest API disconnected.
+1744313150: New connection from 172.17.0.1:46490 on port 1883.
+1744313150: New client connected from 172.17.0.1:46490 as Nest API (p2, c1, k60, u'admin').
+1744313150: No will message specified.
+1744313150: Sending CONNACK to Nest API (0, 0)
+1744313150: Received SUBSCRIBE from Nest API
+1744313150: 	robot/+/position (QoS 1)
+1744313150: Nest API 1 robot/+/position
+1744313150: Sending SUBACK to Nest API
+1744313211: Received PINGREQ from Nest API
+1744313211: Sending PINGRESP to Nest API
+1744313216: Received DISCONNECT from Nest API
+1744313216: Client Nest API disconnected.
+1744313410: New connection from 172.17.0.1:37960 on port 1883.
+1744313410: New client connected from 172.17.0.1:37960 as Nest API (p2, c1, k60, u'admin').
+1744313410: No will message specified.
+1744313410: Sending CONNACK to Nest API (0, 0)
+1744313410: Received SUBSCRIBE from Nest API
+1744313410: 	robot/+/position (QoS 1)
+1744313410: Nest API 1 robot/+/position
+1744313410: Sending SUBACK to Nest API
+1744313470: Received PINGREQ from Nest API
+1744313470: Sending PINGRESP to Nest API
+1744313531: Received PINGREQ from Nest API
+1744313531: Sending PINGRESP to Nest API
+1744313591: Received PINGREQ from Nest API
+1744313591: Sending PINGRESP to Nest API
+1744313651: Received PINGREQ from Nest API
+1744313651: Sending PINGRESP to Nest API
+1744313711: Received PINGREQ from Nest API
+1744313711: Sending PINGRESP to Nest API
+1744313771: Received PINGREQ from Nest API
+1744313771: Sending PINGRESP to Nest API
+1744313811: Client Nest API closed its connection.
+1744313818: New connection from 172.17.0.1:59108 on port 1883.
+1744313818: New client connected from 172.17.0.1:59108 as Nest API (p2, c1, k60, u'admin').
+1744313818: No will message specified.
+1744313818: Sending CONNACK to Nest API (0, 0)
+1744313818: Received SUBSCRIBE from Nest API
+1744313818: 	robot/+/position (QoS 1)
+1744313818: Nest API 1 robot/+/position
+1744313818: Sending SUBACK to Nest API
+1744313878: Received PINGREQ from Nest API
+1744313878: Sending PINGRESP to Nest API
+1744313938: Received PINGREQ from Nest API
+1744313938: Sending PINGRESP to Nest API
+1744313998: Received PINGREQ from Nest API
+1744313998: Sending PINGRESP to Nest API
+1744314058: Received PINGREQ from Nest API
+1744314058: Sending PINGRESP to Nest API
+1744314118: Received PINGREQ from Nest API
+1744314118: Sending PINGRESP to Nest API
+1744314178: Received PINGREQ from Nest API
+1744314178: Sending PINGRESP to Nest API
+1744314238: Received PINGREQ from Nest API
+1744314238: Sending PINGRESP to Nest API
+1744314298: Received PINGREQ from Nest API
+1744314298: Sending PINGRESP to Nest API
+1744314358: Received PINGREQ from Nest API
+1744314358: Sending PINGRESP to Nest API
+1744314380: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1744314418: Received PINGREQ from Nest API
+1744314418: Sending PINGRESP to Nest API
+1744314478: Received PINGREQ from Nest API
+1744314478: Sending PINGRESP to Nest API
+1744314538: Received PINGREQ from Nest API
+1744314538: Sending PINGRESP to Nest API
+1744314598: Received PINGREQ from Nest API
+1744314598: Sending PINGRESP to Nest API
+1744314659: Received PINGREQ from Nest API
+1744314659: Sending PINGRESP to Nest API
+1744314719: Received PINGREQ from Nest API
+1744314719: Sending PINGRESP to Nest API
+1744314779: Received PINGREQ from Nest API
+1744314779: Sending PINGRESP to Nest API
+1744314839: Received PINGREQ from Nest API
+1744314839: Sending PINGRESP to Nest API
+1744314899: Received PINGREQ from Nest API
+1744314899: Sending PINGRESP to Nest API
+1744314959: Received PINGREQ from Nest API
+1744314959: Sending PINGRESP to Nest API
+1744315019: Received PINGREQ from Nest API
+1744315019: Sending PINGRESP to Nest API
+1744315079: Received PINGREQ from Nest API
+1744315079: Sending PINGRESP to Nest API
+1744315139: Received PINGREQ from Nest API
+1744315139: Sending PINGRESP to Nest API
+1744315199: Received PINGREQ from Nest API
+1744315199: Sending PINGRESP to Nest API
+1744315259: Received PINGREQ from Nest API
+1744315259: Sending PINGRESP to Nest API
+1744315319: Received PINGREQ from Nest API
+1744315319: Sending PINGRESP to Nest API
+1744315379: Received PINGREQ from Nest API
+1744315379: Sending PINGRESP to Nest API
+1744315439: Received PINGREQ from Nest API
+1744315439: Sending PINGRESP to Nest API
+1744315499: Received PINGREQ from Nest API
+1744315499: Sending PINGRESP to Nest API
+1744315546: Received DISCONNECT from Nest API
+1744315546: Client Nest API disconnected.
+1744315547: New connection from 172.17.0.1:49942 on port 1883.
+1744315547: New client connected from 172.17.0.1:49942 as Nest API (p2, c1, k60, u'admin').
+1744315547: No will message specified.
+1744315547: Sending CONNACK to Nest API (0, 0)
+1744315547: Received SUBSCRIBE from Nest API
+1744315547: 	robot/+/position (QoS 1)
+1744315547: Nest API 1 robot/+/position
+1744315547: Sending SUBACK to Nest API
+1744315607: Received PINGREQ from Nest API
+1744315607: Sending PINGRESP to Nest API
+1744315641: Received DISCONNECT from Nest API
+1744315641: Client Nest API disconnected.
+1744315641: New connection from 172.17.0.1:39564 on port 1883.
+1744315641: New client connected from 172.17.0.1:39564 as Nest API (p2, c1, k60, u'admin').
+1744315641: No will message specified.
+1744315641: Sending CONNACK to Nest API (0, 0)
+1744315641: Received SUBSCRIBE from Nest API
+1744315641: 	robot/+/position (QoS 1)
+1744315641: Nest API 1 robot/+/position
+1744315641: Sending SUBACK to Nest API
+1744315641: Client Nest API closed its connection.
+1744315645: New connection from 172.17.0.1:39574 on port 1883.
+1744315645: New client connected from 172.17.0.1:39574 as Nest API (p2, c1, k60, u'admin').
+1744315645: No will message specified.
+1744315645: Sending CONNACK to Nest API (0, 0)
+1744315645: Received SUBSCRIBE from Nest API
+1744315645: 	robot/+/position (QoS 1)
+1744315645: Nest API 1 robot/+/position
+1744315645: Sending SUBACK to Nest API
+1744315705: Received PINGREQ from Nest API
+1744315705: Sending PINGRESP to Nest API
+1744315711: Received DISCONNECT from Nest API
+1744315711: Client Nest API disconnected.
+1744315712: New connection from 172.17.0.1:48988 on port 1883.
+1744315712: New client connected from 172.17.0.1:48988 as Nest API (p2, c1, k60, u'admin').
+1744315712: No will message specified.
+1744315712: Sending CONNACK to Nest API (0, 0)
+1744315712: Received SUBSCRIBE from Nest API
+1744315712: 	robot/+/position (QoS 1)
+1744315712: Nest API 1 robot/+/position
+1744315712: Sending SUBACK to Nest API
+1744315772: Received PINGREQ from Nest API
+1744315772: Sending PINGRESP to Nest API
+1744315818: Received DISCONNECT from Nest API
+1744315818: Client Nest API disconnected.
+1744315821: New connection from 172.17.0.1:36370 on port 1883.
+1744315821: New client connected from 172.17.0.1:36370 as Nest API (p2, c1, k60, u'admin').
+1744315821: No will message specified.
+1744315821: Sending CONNACK to Nest API (0, 0)
+1744315821: Received SUBSCRIBE from Nest API
+1744315821: 	robot/+/position (QoS 1)
+1744315821: Nest API 1 robot/+/position
+1744315821: Sending SUBACK to Nest API
+1744315881: Received PINGREQ from Nest API
+1744315881: Sending PINGRESP to Nest API
+1744315941: Received PINGREQ from Nest API
+1744315941: Sending PINGRESP to Nest API
+1744316001: Received PINGREQ from Nest API
+1744316001: Sending PINGRESP to Nest API
+1744316047: Received DISCONNECT from Nest API
+1744316047: Client Nest API disconnected.
+1744316181: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1744317577: mosquitto version 2.0.21 terminating
+1744317577: Saving in-memory database to /mosquitto/data//mosquitto.db.
