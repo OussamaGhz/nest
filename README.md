@@ -51,7 +51,7 @@ The system uses a graph-based data model for warehouse navigation:
 ### Docker Setup
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/yourusername/warehouse-robot-system.git](https://github.com/OussamaGhz/warehouse-robot-system.git)
+   git clone https://github.com/OussamaGhz/warehouse-robot-system.git
    cd warehouse-robot-system
    ```
 
